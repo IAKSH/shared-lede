@@ -31,4 +31,5 @@ git clone --depth 1 https://github.com/yichya/luci-app-xray.git && mv luci-app-x
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git pw-dependencies
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git && mv openwrt-passwall/luci-app-passwall ./ && rm -rf openwrt-passwall
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git && mv openwrt-passwall2/luci-app-passwall2 ./ && rm -rf openwrt-passwall2
-git clone --depth 1 https://github.com/vernesong/OpenClash.git && mv OpenClash/luci-app-openclash ./ && rm -rf OpenClash
+#git clone --depth 1 https://github.com/vernesong/OpenClash.git && mv OpenClash/luci-app-openclash ./ && rm -rf OpenClash
+git clone --depth 1 https://github.com/Zxilly/UA2F.git
