@@ -12,3 +12,4 @@ mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages.git
 git clone --depth 1 https://github.com/kenzok8/small.git
 git clone --depth 1 https://github.com/Ausaci/luci-app-nat6-helper.git
+git clone --depth 1 https://github.com/Zxilly/UA2F.git
