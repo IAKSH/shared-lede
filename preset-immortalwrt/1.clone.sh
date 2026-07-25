@@ -5,7 +5,7 @@ CODE_DIR=_firmware_code
 CODE_URL=https://github.com/immortalwrt/immortalwrt.git
 CODE_BRANCH=openwrt-24.10
 SWITCH_LATEST_TAG=false
-#git clone --single-branch -b $CODE_BRANCH $CODE_URL $CODE_DIR
+git clone --single-branch -b $CODE_BRANCH $CODE_URL $CODE_DIR
 if $SWITCH_LATEST_TAG; then
     cd $CODE_DIR
     LATEST_TAG_HASH=$(git rev-list --tags --max-count=1)
