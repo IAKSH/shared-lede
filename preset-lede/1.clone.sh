@@ -2,7 +2,7 @@
 
 # download base code
 CODE_DIR=_firmware_code
-git clone --depth 1 https://github.com/coolsnowwolf/lede.git $CODE_DIR
+git clone --depth 1 --branch 20251001 https://github.com/coolsnowwolf/lede.git $CODE_DIR
 mv ./$CODE_DIR/* ./
 
 # download app codes
